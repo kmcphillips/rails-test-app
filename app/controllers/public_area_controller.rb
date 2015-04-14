@@ -1,3 +1,3 @@
 class PublicAreaController < ApplicationController
-  form_builder PublicFormBuilder
+  default_form_builder PublicFormBuilder
 end

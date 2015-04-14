@@ -1,3 +1,3 @@
 class AdminAreaController < ApplicationController
-  form_builder AdminFormBuilder
+  default_form_builder AdminFormBuilder
 end
